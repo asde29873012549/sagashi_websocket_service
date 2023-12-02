@@ -2,6 +2,7 @@
 	"name": "sagashi_websocket_service",
 	"version": "1.0.0",
 	"description": "websocket service for sagashi",
+	"type": "module",
 	"main": "index.js",
 	"scripts": {
 		"dev": "nodemon src/index.js",
@@ -35,6 +36,7 @@
 		"express": "^4.18.2",
 		"helmet": "^7.1.0",
 		"jose": "^5.1.3",
-		"redis": "^4.6.11"
+		"redis": "^4.6.11",
+		"socket.io": "^4.7.2"
 	}
 }
